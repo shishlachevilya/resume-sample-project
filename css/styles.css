@@ -1,0 +1,239 @@
+body {
+    background-color: #f5f7fa;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    background: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar section */
+
+.sidebar-section {
+    background: #1e2939;
+    width: 370px;
+    padding: 40px 0px;
+}
+
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section {
+    margin: 50px 0 0 40px;
+}
+
+.sidebar-section-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Contacts section */
+
+.contacts-section-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.contacts-section-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #81878f;
+}
+
+/* Tech & soft skills section */
+
+.tech-skills-list,
+.soft-skills-list {
+    padding-left: 17px;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+    color: #fb6d3a;
+}
+
+.tech-skills-item-text,
+.soft-skills-item-text {
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Main content section */
+
+.main-content-section {
+    padding: 100px 75px;
+}
+
+.main-content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0 0 12px 0;
+}
+
+/* About me section */
+
+.about-me-section {
+    margin: 0 0 40px 0;
+}
+
+.about-me-profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 48 px;
+    color: #000;
+    margin: 0 0 25px 0;
+}
+
+.about-me-text {
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    color: #595959;
+    margin: 0 0 0 0;
+}
+
+/* My projects section */
+
+.my-projects-section {
+    margin: 0 0 50px 0;
+}
+
+.my-projects-list {
+    margin: 0 0 0 0;
+    padding-left: 19px;
+}
+
+.my-projects-list-item {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.my-projects-list-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin: 0 0 0 10px;
+}
+
+.my-projects-list-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.my-projects-bracket {
+    font-weight: 700;
+}
+
+/* My work experience section */
+
+.my-work-experience-section {
+    margin: 0 0 45px 0;
+}
+
+.my-work-experience-company-block {
+    width: 525px;
+    margin: 0 0 20px 0;
+}
+
+.my-work-experience-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+.my-work-experience-company {
+    color: #fb6d3a;
+}
+
+.my-work-experience-duties {
+    text-align: justify;
+    margin: 0 0 0 0;
+    padding: 0 0 0 18px;
+}
+
+.my-work-experience-duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* Merged experience/education */
+
+.my-work-experience-period,
+.my-education-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin: 0 0 10px 0;
+}
+
+.my-work-experience-devider,
+.my-education-devider {
+    color: #000;
+}
+
+/* My education section */
+
+.my-education-organisation {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb6d3a;
+    margin: 0 0 10px 0;
+}
+
+.my-education-direction {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin: 0 0 10px 0;
+}
